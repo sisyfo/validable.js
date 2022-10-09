@@ -1,6 +1,6 @@
 {
   "name": "validablejs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This is a functional programming library thats allows you to chain functions with ease at the same time it manages potential exceptions",
   "main": "validable.js",
   "scripts": {
