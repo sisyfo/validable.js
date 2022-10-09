@@ -76,7 +76,7 @@ const validableFn = {
     this.forEach(fx);
     return this;
   },
-  match: async function ({ fx = identityFx, fe = identityFx }) {
+  match: async function (fx = identityFx, fe = identityFx) {
     return this.promise
       .then((results) => fx(getLastResultsValue(results), getBag(results)))
       .catch((results) => fe(getLastResultsValue(results), getBag(results)));
