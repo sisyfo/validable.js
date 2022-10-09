@@ -1,0 +1,13 @@
+{
+  "name": "validablejs",
+  "version": "1.0.0",
+  "description": "This is a functional programming library thats allows you to chain functions with ease at the same time it manages potential exceptions",
+  "main": "validable.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node validable.js"
+  },
+  "author": "Chocron J.",
+  "type": "module",
+  "license": "MIT"
+}
